@@ -12,7 +12,7 @@ const httpOptions = {
 @Injectable()
 export class TodoServicesService {
   todoURL:string =  'https://jsonplaceholder.typicode.com/todos';
-  todoLimit:string = '?_limit=5';
+  todoLimit:string = '?_limit=10';
 
   constructor(private http:HttpClient) { }
 
